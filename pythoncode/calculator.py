@@ -24,7 +24,6 @@ class Calculator:
             round((a / b), 5)
             return round((a / b), 5)
         except ZeroDivisionError as err:
-            print(f'err:{err}')
             return "division by zero"
         except TypeError as err:
             return 'TypeError'

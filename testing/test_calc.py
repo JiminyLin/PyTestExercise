@@ -14,20 +14,15 @@ class TestCalc:
 
     def setup(self):
         print('开始计算')
+
     def teardown(self):
         print('\n计算结束')
 
     @allure.story('计算器的加法')
     @pytest.mark.parametrize('a,b,expect', yaml.safe_load(open('datas/add.yml')))
     def test_Add(self, a, b, expect):
-        try:
-            result = self.calc.add(a, b)
-            assert result == expect
-        except TypeError as err:
-            print(err)
-            assert err == expect
-
-
+        result = self.calc.add(a, b)
+        assert result == expect
 
     @allure.story('计算器的减法')
     @pytest.mark.parametrize('a,b,expect', yaml.safe_load(open('datas/sub.yml')))
@@ -48,4 +43,4 @@ class TestCalc:
         assert result == expect
 
     if __name__ == '__main__':
-        pytest.main(['-s','-v'])
+        pytest.main(['-s', '-v'])
