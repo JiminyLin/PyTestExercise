@@ -43,4 +43,4 @@ class TestCalc:
         assert result == expect
 
     if __name__ == '__main__':
-        pytest.main(['-s', '-v'])
+        pytest.main()
