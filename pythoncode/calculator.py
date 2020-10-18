@@ -1,20 +1,30 @@
 class Calculator:
 
     def add(self, a, b):
-        return a + b
+        try:
+            return a + b
+        except TypeError as err:
+            return 'TypeError'
 
     def sub(self, a, b):
-        return round((a - b),10)
+
+        try:
+            return round((a - b), 10)
+        except TypeError as err:
+            return 'TypeError'
 
     def mul(self, a, b):
-        return round((a * b),5)
+        try:
+            return round((a * b), 5)
+        except TypeError as err:
+            return 'TypeError'
 
     def div(self, a, b):
         try:
             round((a / b), 5)
             return round((a / b), 5)
         except ZeroDivisionError as err:
-            print (f'err:{err}')
-            return "divisor can't 0"
-
-
+            print(f'err:{err}')
+            return "division by zero"
+        except TypeError as err:
+            return 'TypeError'
