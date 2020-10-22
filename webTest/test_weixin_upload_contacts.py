@@ -23,7 +23,7 @@ class TestTestWorkWechat:
     def teardown_(self, method):
         self.driver.quit()
 
-    @pytest.fixture(scope='class')
+    @pytest.fixture()
     def login(self):
         #登录状态打开企业微信，并把cookies存储到shelve
         self.driver.get("https://work.weixin.qq.com/wework_admin/frame")
