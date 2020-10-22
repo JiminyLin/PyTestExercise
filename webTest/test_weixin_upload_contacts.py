@@ -11,17 +11,21 @@ from selenium.webdriver.common.by import By
 
 curDir = os.getcwd()
 class TestTestWorkWechat:
-    def setup_method(self, method):
+    def setup_class(self, method):
+
         options = Options()
         options.debugger_address = "127.0.0.1:9222"
+
+        #实例webdriver.Chrome，且设置为复用浏览器
         self.driver = webdriver.Chrome(options=options)
 
 
-    def teardown_method(self, method):
+    def teardown_(self, method):
         self.driver.quit()
 
-    @pytest.fixture()
+    @pytest.fixture(scope='class')
     def login(self):
+        #登录状态打开企业微信，并把cookies存储到shelve
         self.driver.get("https://work.weixin.qq.com/wework_admin/frame")
         db = shelve.open("cookies")
         cookie = self.driver.get_cookies()
