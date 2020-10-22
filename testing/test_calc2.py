@@ -23,7 +23,7 @@ class TestCalc:
     #     print('\n计算结束')
 
     @allure.story('计算器的加法')
-    @pytest.mark.run(order=4)
+    @pytest.mark.run(order=1)
     @pytest.mark.add
     @pytest.mark.parametrize('a,b,expect', yaml.safe_load(open(absPath+ '/datas/add.yml')))#项目根目录是./testing/datas/add.yml
     def test_Add(self, a, b, expect, outCalcStarEnd):
@@ -39,7 +39,7 @@ class TestCalc:
         assert result == expect
 
     @allure.story('计算器的乘法')
-    @pytest.mark.run(order=2)
+    @pytest.mark.run(order=4)
     @pytest.mark.mult
     @pytest.mark.parametrize('a,b,expect', yaml.safe_load(open(absPath + '/datas/mult.yml')))
     def test_mult(self, a, b, expect):
@@ -47,7 +47,7 @@ class TestCalc:
         assert result == expect
 
     @allure.story('计算器的除法')
-    @pytest.mark.run(order=1)
+    @pytest.mark.run(order=2)
     @pytest.mark.div
     @pytest.mark.parametrize('a,b,expect', yaml.safe_load(open(absPath + '/datas/div.yml')))
     def test_div(self, a, b, expect, outCalcStarEnd):

@@ -9,7 +9,7 @@ def teardown_module():
 
 
 def test_case1():
-    print('case1')
+    print('case1-这是外部方法')
 
 
 # 不在类中，函数级别
@@ -22,7 +22,7 @@ def teardown_function():
 
 
 # 类级别和方法级别
-class TestDemo:
+class TestDemo1:
     # 类级别
     def setup_class(self):
         print('TestDemo setup_class')
@@ -46,10 +46,13 @@ class TestDemo:
         print('TestDemo teardown')
 
     def test_demo1(self):
-        print('demo1')
+        print('demo1 方法')
+
+    def test_demo2(self):
+        print('demo2 方法')
 
 
-class TestDemo1:
+class TestDemo2:
     # 类级别
     def setup_class(self):
         print('1 TestDemo setup_class')
@@ -67,4 +70,7 @@ class TestDemo1:
         print('1 TestDemo teardown')
 
     def test_demo1(self):
-        print('1 demo1')
+        print('2 demo1  方法')
+
+    def test_demo2(self):
+        print('2demo2 方法')

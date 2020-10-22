@@ -1,0 +1,98 @@
+{
+  "uid" : "659fa4d3868258b8",
+  "name" : "test_add[小数加字符串用例]",
+  "fullName" : "test_calc2.TestCalcTaskOne#test_add",
+  "historyId" : "0d5ef67f42fbfdb2446ebe4c16c7b057",
+  "time" : {
+    "start" : 1603377909835,
+    "stop" : 1603377909835,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1603377909539,
+      "stop" : 1603377909539,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1603377909855,
+      "stop" : 1603377909856,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "tag",
+    "value" : "add"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalcTaskOne"
+  }, {
+    "name" : "host",
+    "value" : "lingz-mac.lan"
+  }, {
+    "name" : "thread",
+    "value" : "2038-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "22.0"
+  }, {
+    "name" : "b",
+    "value" : "'11'"
+  }, {
+    "name" : "expect",
+    "value" : "'TypeError'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "add", "run(order=1)" ]
+  },
+  "source" : "659fa4d3868258b8.json",
+  "parameterValues" : [ "22.0", "'11'", "'TypeError'" ]
+}

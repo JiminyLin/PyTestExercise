@@ -1,0 +1,98 @@
+{
+  "uid" : "8818570b83821b8b",
+  "name" : "test_mult[字符串乘于正数异常用例]",
+  "fullName" : "test_calc1.TestCalcTaskOne#test_mult",
+  "historyId" : "d546bd83338dbc0b39572c88aea12838",
+  "time" : {
+    "start" : 1603377912286,
+    "stop" : 1603377912287,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1603377911809,
+      "stop" : 1603377911810,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1603377912331,
+      "stop" : 1603377912331,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "tag",
+    "value" : "mult"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalcTaskOne"
+  }, {
+    "name" : "host",
+    "value" : "lingz-mac.lan"
+  }, {
+    "name" : "thread",
+    "value" : "2038-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "'a'"
+  }, {
+    "name" : "b",
+    "value" : "11"
+  }, {
+    "name" : "expect",
+    "value" : "'TypeError'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=4)", "mult" ]
+  },
+  "source" : "8818570b83821b8b.json",
+  "parameterValues" : [ "'a'", "11", "'TypeError'" ]
+}

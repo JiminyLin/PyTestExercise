@@ -1,0 +1,98 @@
+{
+  "uid" : "cde37a13ce1d07c1",
+  "name" : "test_div[负小数出于负小数用例]",
+  "fullName" : "test_calc2.TestCalcTaskOne#test_div",
+  "historyId" : "3ad8d4ad0c819d3421a30261cf9ea865",
+  "time" : {
+    "start" : 1603377912596,
+    "stop" : 1603377912598,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1603377912367,
+      "stop" : 1603377912367,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1603377912771,
+      "stop" : 1603377912771,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "tag",
+    "value" : "div"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalcTaskOne"
+  }, {
+    "name" : "host",
+    "value" : "lingz-mac.lan"
+  }, {
+    "name" : "thread",
+    "value" : "2038-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "-66.66"
+  }, {
+    "name" : "b",
+    "value" : "-33.33"
+  }, {
+    "name" : "expect",
+    "value" : "2.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "div", "run(order=4)" ]
+  },
+  "source" : "cde37a13ce1d07c1.json",
+  "parameterValues" : [ "-66.66", "-33.33", "2.0" ]
+}

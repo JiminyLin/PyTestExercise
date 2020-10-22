@@ -1,0 +1,98 @@
+{
+  "uid" : "934437c2ba9dec9d",
+  "name" : "test_sub[小数相减得正数用例]",
+  "fullName" : "test_calc1.TestCalcTaskOne#test_sub",
+  "historyId" : "a8974f8f5c22fd10d619132c3e82ae2e",
+  "time" : {
+    "start" : 1603377911106,
+    "stop" : 1603377911107,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1603377910868,
+      "stop" : 1603377910869,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1603377911353,
+      "stop" : 1603377911365,
+      "duration" : 12
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "sub"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalcTaskOne"
+  }, {
+    "name" : "host",
+    "value" : "lingz-mac.lan"
+  }, {
+    "name" : "thread",
+    "value" : "2038-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "1.098"
+  }, {
+    "name" : "b",
+    "value" : "1.001"
+  }, {
+    "name" : "expect",
+    "value" : "0.097"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=3)", "sub" ]
+  },
+  "source" : "934437c2ba9dec9d.json",
+  "parameterValues" : [ "1.098", "1.001", "0.097" ]
+}
